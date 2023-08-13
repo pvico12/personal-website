@@ -76,6 +76,40 @@ export default function Home() {
         </div>
       </div>
 
+      <div id="projects-container" className="p-10">
+        <h1 className="pb-3">
+          PROJECTS
+        </h1>
+        
+        <div id="projects-list" className="flex flex-col">
+          <div className="pb-4">
+            <h4>Watopoly</h4>
+            <p>
+              Description of project
+            </p>
+          </div>
+
+          <div id="websites-list" className="pb-4">
+            <h4>Websites</h4>
+            
+            <div className="py-2">
+              <h3>Tena's Treats</h3>
+              <h5>https://www.tenastreats.com</h5>
+            </div>
+
+            <div className="pb-2">
+              <h3>JV P&C Solutions</h3>
+              <h5>https://www.jvpcs.com</h5>
+            </div>
+
+            <div>
+              <h3>M&N Windows And Doors</h3>
+              <h5>https://www.mnwindowsdoors.com</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
 
     </main>
   )
