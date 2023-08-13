@@ -28,9 +28,25 @@ export default function Home() {
           </li>
         </ul>
       </div>
+
       <div id="about-container" className="p-10">
-        <h1>ABOUT</h1>
+        <h1 className="pb-3">
+          ABOUT
+        </h1>
+        
+        <p>
+          Add some info about yourself. Add some info about yourself. 
+          Add some info about yourself. Add some info about yourself. 
+          Add some info about yourself. Add some info about yourself. 
+          Add some info about yourself. Add some info about yourself. 
+          Add some info about yourself. Add some info about yourself. 
+          Add some info about yourself. Add some info about yourself.
+        </p>
       </div>
+
+      
+
+
     </main>
   )
 }
