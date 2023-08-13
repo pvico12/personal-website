@@ -44,7 +44,37 @@ export default function Home() {
         </p>
       </div>
 
-      
+      <div id="experience-container" className="p-10">
+        <h1 className="pb-3">
+          EXPERIENCE
+        </h1>
+        
+        <div id="experience-list" className="flex flex-col">
+          <div className="pb-4">
+            <h4>JUNE 2023 - PRESENT</h4>
+            <h2>Full-Stack Engineer - SerbLink</h2>
+            <p>
+              Description of position
+            </p>
+          </div>
+
+          <div className="pb-4">
+            <h4>SEPT 2022 - PRESENT</h4>
+            <h2>Software Engineer in Test - IMAX</h2>
+            <p>
+              Description of position
+            </p>
+          </div>
+
+          <div className="pb-4">
+            <h4>MAY 2023 - AUG 2023</h4>
+            <h2>Software Engineer in Test - Siemens</h2>
+            <p>
+              Description of position
+            </p>
+          </div>
+        </div>
+      </div>
 
 
     </main>
