@@ -4,7 +4,7 @@ function experience(props) {
   let skillsDivList = [];
 
   for (let i = 0; i < props.skills.length; i++) {
-    skillsDivList.push(<div className="bg-fuchsia-400 rounded-full px-3 py-1">{props.skills[i]}</div>)
+    skillsDivList.push(<div key={i} className="bg-fuchsia-400 rounded-full px-3 py-1">{props.skills[i]}</div>)
   }
   return (
     <div id="experiene-entry" className="flex pb-4 gap-4">

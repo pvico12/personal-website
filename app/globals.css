@@ -2,9 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@media (min-width: 1024px) {
-}
-
 @media (max-width: 1023px) {
   .flex-pane {
     flex-direction: column
