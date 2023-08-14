@@ -4,6 +4,7 @@ import { FaLinkedin, FaGithub, FaEnvelope, FaLightbulb } from "react-icons/fa";
 import { useState } from "react";
 import Head from "next/head";
 import Experience from "./components/Experience.js"
+import Project from "./components/Project.js"
 
 export default function Home() {
   const [darkmode, setDarkmode] = useState(false);
@@ -105,46 +106,35 @@ export default function Home() {
               </h1>
 
               <div id="projects-list" className="flex flex-col">
-                <div className="pb-4">
-                  <h4>Watopoly</h4>
-                  <p>
-                    Description of project
-                  </p>
-                </div>
+                <Project
+                  title="Watopoly"
+                  description="Waterloo-themed Monopoly game support 2-8 players on the terminal."
+                  skills={["C++", "Bash"]}
+                />
 
-                <div id="websites-list" className="pb-4">
-                  <h4>Websites</h4>
+                <Project
+                  title="Personal Website"
+                  description="Creating and maintaining website built with MongoDB, ExpressJS, NodeJS, and Angular."
+                  skills={["NextJS", "ReactJS", "Tailwind CSS"]}
+                />
 
-                  <div className="py-2">
-                    <h3>Tena's Treats</h3>
-                    <a
-                    href="https://www.tenastreats.com" 
-                    target="_blank" rel="noopener noreferrer"
-                    className="text-md pr-2 underline">
-                      tenastreats.com
-                    </a>
-                  </div>
+                <Project
+                  title="Tena's Treats Wesbite"
+                  description="A website for a customized sweet treats local business."
+                  skills={["Angular"]}
+                />
 
-                  <div className="pb-2">
-                    <h3>JV P&C Solutions</h3>
-                    <a
-                    href="https://www.jvpcs.com"
-                    target="_blank" rel="noopener noreferrer"
-                    className="text-md pr-2 underline">
-                      jvpcs.com
-                    </a>
-                  </div>
+                <Project
+                  title="JV P&C Solutions Website"
+                  description="A website for an electrical engineering company focused in relay protection, maintenance, and control."
+                  skills={["ReactJS"]}
+                />
 
-                  <div>
-                    <h3>M&N Windows And Doors</h3>
-                    <a
-                    href="https://www.mnwindowsdoors.com"
-                    target="_blank" rel="noopener noreferrer"
-                    className="text-3md pr-2 underline">
-                      mnwindowsdoors.com
-                    </a>
-                  </div>
-                </div>
+                <Project
+                  title="M&N Windows and Doors Website"
+                  description="A website for a local Windows and Doors company that has been well-known for over 40 years."
+                  skills={["HTML", "CSS"]}
+                />
               </div>
             </div>
           </div>
