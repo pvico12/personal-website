@@ -3,8 +3,8 @@ import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 export default function Home() {
   return (
     <main className="">
-      <div id="two-sided-pane" className="flex lg:items-center justify-center flex-pane">
-        <div id="main-info-container" className="max-w-lg lg:w-1/2 sticky top-0 p-10">
+      <div id="two-sided-pane" className="flex justify-center flex-pane">
+        <div id="main-info-container" className="max-w-lg lg:w-1/2 lg:sticky lg:top-0 lg:h-fit p-10">
           <div id="basic-info" className="pb-6">
             <h1 id="full-name" className="text-5xl pb-2">
               Petar Vico
@@ -30,7 +30,7 @@ export default function Home() {
           </ul>
         </div>
 
-        <div id="personal-sections" className="max-w-3xl lg:w-1/2 overflow-y-scroll">
+        <div id="personal-sections" className="max-w-3xl lg:w-1/2">
           <div id="about-container" className="p-10">
             <h1 className="pb-3">
               ABOUT
