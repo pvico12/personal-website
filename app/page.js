@@ -62,25 +62,36 @@ export default function Home() {
                 <div className="pb-4">
                   <h4>JUNE 2023 - PRESENT</h4>
                   <h2>Full-Stack Engineer - SerbLink</h2>
-                  <p>
-                    Description of position
-                  </p>
+                  <ul>
+                    <li>Creating and maintaining website built with MongoDB, ExpressJS, NodeJS, and Angular.</li>
+                  </ul>
                 </div>
 
                 <div className="pb-4">
                   <h4>SEPT 2022 - PRESENT</h4>
                   <h2>Software Engineer in Test - IMAX</h2>
-                  <p>
-                    Description of position
-                  </p>
+                  <ul>
+                    <li>Created Slack bot to report daily integration test runs with lots of responsiveness.</li>
+                    <li>Created script to automate the TestRail reporting process when running test cases.</li>
+                    <li>Created several other automation scripts to ease software testing and development throughout the team.</li>
+                    <li>Maintained several areas of testing including regression, integration, and validation.</li>
+                    <li>Obtained experience working with RestAPIs, MySQL databases, and product deployment.</li>
+                    <li>Reworked entire areas of testing for better automativity, documentation, and thoroughness.</li>
+                    <li>Fast-pased work environent applying agile methodologies using technologies like GitHub and JIRA.</li>
+                  </ul>
                 </div>
 
                 <div className="pb-4">
                   <h4>MAY 2023 - AUG 2023</h4>
                   <h2>Software Engineer in Test - Siemens</h2>
-                  <p>
-                    Description of position
-                  </p>
+                  <ul>
+                    <li>Created android emulator in Java to speed up acceptance testing by up to 2500%.</li>
+                    <li>Company-wide emulator impact as it was packaged and distributed to other teams.</li>
+                    <li>Created tools for cloud deployment of emulators.</li>
+                    <li>Automated test cases from the ground for an entire new product yet to be released.</li>
+                    <li>Used a BDD (Behaviour Driven Development) apporoach with the help of Gherkin to maximize test coverage and accuracy.</li>
+                    <li>Maintained several areas of automated testing in Python including acceptance, validation, sanity, and performance.</li>
+                  </ul>
                 </div>
               </div>
             </div>
