@@ -26,17 +26,17 @@ export default function Home() {
               </h4>
             </div>
 
-            <ul className="flex flex-row">
-              <li className="text-3xl pr-2">
+            <div id="social-links" className="flex flex-row">
+              <a href="https://ca.linkedin.com/in/petar-vico-6ba2b6217" target="_blank" rel="noopener noreferrer" className="text-3xl pr-2">
                 <FaLinkedin />
-              </li>
-              <li className="text-3xl px-2">
+              </a>
+              <a href="https://github.com/pvico12/" target="_blank" rel="noopener noreferrer" className="text-3xl px-2">
                 <FaGithub />
-              </li>
-              <li className="text-3xl px-2">
+              </a>
+              <a href="mailto:petarvico3@outlook.com" target="_blank" rel="noopener noreferrer" className="text-3xl px-2">
                 <FaEnvelope />
-              </li>
-            </ul>
+              </a>
+            </div>
           </div>
 
           <div id="personal-sections" className="max-w-3xl lg:w-1/2">
