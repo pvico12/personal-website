@@ -114,17 +114,32 @@ export default function Home() {
 
                   <div className="py-2">
                     <h3>Tena's Treats</h3>
-                    <h5>https://www.tenastreats.com</h5>
+                    <a
+                    href="https://www.tenastreats.com" 
+                    target="_blank" rel="noopener noreferrer"
+                    className="text-md pr-2 underline">
+                      tenastreats.com
+                    </a>
                   </div>
 
                   <div className="pb-2">
                     <h3>JV P&C Solutions</h3>
-                    <h5>https://www.jvpcs.com</h5>
+                    <a
+                    href="https://www.jvpcs.com"
+                    target="_blank" rel="noopener noreferrer"
+                    className="text-md pr-2 underline">
+                      jvpcs.com
+                    </a>
                   </div>
 
                   <div>
                     <h3>M&N Windows And Doors</h3>
-                    <h5>https://www.mnwindowsdoors.com</h5>
+                    <a
+                    href="https://www.mnwindowsdoors.com"
+                    target="_blank" rel="noopener noreferrer"
+                    className="text-3md pr-2 underline">
+                      mnwindowsdoors.com
+                    </a>
                   </div>
                 </div>
               </div>
