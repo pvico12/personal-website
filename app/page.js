@@ -37,12 +37,10 @@ export default function Home() {
             </h1>
             
             <p>
-              Add some info about yourself. Add some info about yourself. 
-              Add some info about yourself. Add some info about yourself. 
-              Add some info about yourself. Add some info about yourself. 
-              Add some info about yourself. Add some info about yourself. 
-              Add some info about yourself. Add some info about yourself. 
-              Add some info about yourself. Add some info about yourself.
+              Complex problem-solver with an analytical and driven mindset.
+              Dedicated to achieving demanding development objectives according to
+              tight schedules while producing impeccable code. Driven student leveraging
+              studies in Computer Science seeking real-world experience as a Software Developer.
             </p>
           </div>
 
