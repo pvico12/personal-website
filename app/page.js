@@ -42,7 +42,7 @@ export default function Home() {
 
           <div id="personal-sections" className="max-w-3xl lg:w-2/3">
             <div id="about-container" className="p-10">
-              <h1 className="pb-3">
+              <h1 className="text-2xl pb-3">
                 ABOUT
               </h1>
 
@@ -55,7 +55,7 @@ export default function Home() {
             </div>
 
             <div id="experience-container" className="p-10">
-              <h1 className="pb-3">
+              <h1 className="text-2xl pb-3">
                 EXPERIENCE
               </h1>
 
@@ -65,7 +65,7 @@ export default function Home() {
                   position="Full-Stack Engineer"
                   company="SerbLink"
                   description="Creating and maintaining website built with MongoDB, ExpressJS, NodeJS, and Angular."
-                  skills="Many"
+                  skills={["MongoDB", "Angular", "NodeJS", "ExpressJS", "Docker", "GitLab"]}
                 />
 
                 <Experience
@@ -80,7 +80,7 @@ export default function Home() {
                   Obtained experience working with RestAPIs, MySQL databases, and product deployment.
                   Reworked entire areas of testing for better automativity, documentation, and thoroughness.
                   Fast-pased work environent applying agile methodologies using technologies like GitHub and JIRA."
-                  skills="Many"
+                  skills={["Python", "TestRail API", "Slack API"]}
                 />
 
                 <Experience
@@ -94,13 +94,13 @@ export default function Home() {
                   Automated test cases from the ground for an entire new product yet to be released.
                   Used a BDD (Behaviour Driven Development) apporoach with the help of Gherkin to maximize test coverage and accuracy.
                   Maintained several areas of automated testing in Python including acceptance, validation, sanity, and performance."
-                  skills="Many"
+                  skills={["Python", "Java", "Gherkin"]}
                 />
               </div>
             </div>
 
             <div id="projects-container" className="p-10">
-              <h1 className="pb-3">
+              <h1 className="text-2xl pb-3">
                 PROJECTS
               </h1>
 
