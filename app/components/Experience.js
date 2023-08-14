@@ -1,13 +1,12 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 
 function experience(props) {
   return (
-    <div id="experience-entry" className="flex pb-4 gap-4">
-      <div id="experience-date" className="text-xs">
+    <div className="flex pb-4 gap-4">
+      <div className="w-1/5 text-xs">
         {props.date}
       </div>
-      <div id="experience-info">
+      <div className="w-4/5">
         <h2>{props.position} - {props.company}</h2>
         <ul>
           <li>{props.description}</li>
@@ -18,11 +17,5 @@ function experience(props) {
   )
 }
 
-experience.propTypes = {
-  
-}
-
 export default experience
-
-
 

@@ -9,7 +9,7 @@ export default function Home() {
   const [darkmode, setDarkmode] = useState(false);
   return (
     <div className={darkmode ? "dark" : ""}>
-      <main className="dark:bg-slate-500">
+      <main className="dark:bg-slate-500 dark:text-white">
         <div id="two-sided-pane" className="flex justify-center flex-pane">
           <div id="main-info-container" className="max-w-lg lg:w-1/3 lg:sticky lg:top-0 lg:h-fit p-10">
             <div id="basic-info" className="pb-6">
@@ -59,7 +59,7 @@ export default function Home() {
                 EXPERIENCE
               </h1>
 
-              <div id="experience-list" className="flex flex-col">
+              <div id="experience-list" className="flex flex-col space-between gap-4">
                 <Experience
                   date="JUNE 2023 - NOW"
                   position="Full-Stack Engineer"
@@ -96,33 +96,6 @@ export default function Home() {
                   Maintained several areas of automated testing in Python including acceptance, validation, sanity, and performance."
                   skills="Many"
                 />
-
-                <div className="pb-4">
-                  <h4>SEPT 2022 - PRESENT</h4>
-                  <h2>Software Engineer in Test - IMAX</h2>
-                  <ul>
-                    <li>Created Slack bot to report daily integration test runs with lots of responsiveness.</li>
-                    <li>Created script to automate the TestRail reporting process when running test cases.</li>
-                    <li>Created several other automation scripts to ease software testing and development throughout the team.</li>
-                    <li>Maintained several areas of testing including regression, integration, and validation.</li>
-                    <li>Obtained experience working with RestAPIs, MySQL databases, and product deployment.</li>
-                    <li>Reworked entire areas of testing for better automativity, documentation, and thoroughness.</li>
-                    <li>Fast-pased work environent applying agile methodologies using technologies like GitHub and JIRA.</li>
-                  </ul>
-                </div>
-
-                <div className="pb-4">
-                  <h4>MAY 2023 - AUG 2023</h4>
-                  <h2>Software Engineer in Test - Siemens</h2>
-                  <ul>
-                    <li>Created android emulator in Java to speed up acceptance testing by up to 2500%.</li>
-                    <li>Company-wide emulator impact as it was packaged and distributed to other teams.</li>
-                    <li>Created tools for cloud deployment of emulators.</li>
-                    <li>Automated test cases from the ground for an entire new product yet to be released.</li>
-                    <li>Used a BDD (Behaviour Driven Development) apporoach with the help of Gherkin to maximize test coverage and accuracy.</li>
-                    <li>Maintained several areas of automated testing in Python including acceptance, validation, sanity, and performance.</li>
-                  </ul>
-                </div>
               </div>
             </div>
 
