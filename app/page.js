@@ -3,6 +3,7 @@
 import { FaLinkedin, FaGithub, FaEnvelope, FaLightbulb } from "react-icons/fa";
 import { useState } from "react";
 import Head from "next/head";
+import Experience from "./components/Experience.js"
 
 export default function Home() {
   const [darkmode, setDarkmode] = useState(false);
@@ -10,7 +11,7 @@ export default function Home() {
     <div className={darkmode ? "dark" : ""}>
       <main className="dark:bg-slate-500">
         <div id="two-sided-pane" className="flex justify-center flex-pane">
-          <div id="main-info-container" className="max-w-lg lg:w-1/2 lg:sticky lg:top-0 lg:h-fit p-10">
+          <div id="main-info-container" className="max-w-lg lg:w-1/3 lg:sticky lg:top-0 lg:h-fit p-10">
             <div id="basic-info" className="pb-6">
               <div id="darkmode-name" className="flex items-center space-between gap-5">
                 <h1 id="full-name" className="text-5xl pb-2">
@@ -39,7 +40,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div id="personal-sections" className="max-w-3xl lg:w-1/2">
+          <div id="personal-sections" className="max-w-3xl lg:w-2/3">
             <div id="about-container" className="p-10">
               <h1 className="pb-3">
                 ABOUT
@@ -59,13 +60,42 @@ export default function Home() {
               </h1>
 
               <div id="experience-list" className="flex flex-col">
-                <div className="pb-4">
-                  <h4>JUNE 2023 - PRESENT</h4>
-                  <h2>Full-Stack Engineer - SerbLink</h2>
-                  <ul>
-                    <li>Creating and maintaining website built with MongoDB, ExpressJS, NodeJS, and Angular.</li>
-                  </ul>
-                </div>
+                <Experience
+                  date="JUNE 2023 - NOW"
+                  position="Full-Stack Engineer"
+                  company="SerbLink"
+                  description="Creating and maintaining website built with MongoDB, ExpressJS, NodeJS, and Angular."
+                  skills="Many"
+                />
+
+                <Experience
+                  date="SEPT 2022 - NOW"
+                  position="Software Engineer in Test"
+                  company="IMAX"
+                  description="
+                  Created Slack bot to report daily integration test runs with lots of responsiveness.
+                  Created script to automate the TestRail reporting process when running test cases.
+                  Created several other automation scripts to ease software testing and development throughout the team.
+                  Maintained several areas of testing including regression, integration, and validation.
+                  Obtained experience working with RestAPIs, MySQL databases, and product deployment.
+                  Reworked entire areas of testing for better automativity, documentation, and thoroughness.
+                  Fast-pased work environent applying agile methodologies using technologies like GitHub and JIRA."
+                  skills="Many"
+                />
+
+                <Experience
+                  date="JUNE 2023 - NOW"
+                  position="Software Engineer in Test"
+                  company="Siemens"
+                  description="
+                  Created android emulator in Java to speed up acceptance testing by up to 2500%.
+                  Company-wide emulator impact as it was packaged and distributed to other teams.
+                  Created tools for cloud deployment of emulators.
+                  Automated test cases from the ground for an entire new product yet to be released.
+                  Used a BDD (Behaviour Driven Development) apporoach with the help of Gherkin to maximize test coverage and accuracy.
+                  Maintained several areas of automated testing in Python including acceptance, validation, sanity, and performance."
+                  skills="Many"
+                />
 
                 <div className="pb-4">
                   <h4>SEPT 2022 - PRESENT</h4>
