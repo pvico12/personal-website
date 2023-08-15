@@ -108,32 +108,29 @@ export default function Home() {
               <div id="projects-list" className="flex flex-col">
                 <Project
                   title="Watopoly"
-                  description="Waterloo-themed Monopoly game support 2-8 players on the terminal."
+                  description="Terminal based Monopoly game supporting 2-8 players."
                   skills={["C++", "Bash"]}
                 />
 
                 <Project
                   title="Personal Website"
-                  description="Creating and maintaining website built with MongoDB, ExpressJS, NodeJS, and Angular."
+                  description="My personal website outlining my different software development experience through different work experiences and projects."
                   skills={["NextJS", "ReactJS", "Tailwind CSS"]}
+                  link="petarvico.com"
                 />
 
                 <Project
                   title="Tena's Treats Wesbite"
                   description="A website for a customized sweet treats local business."
                   skills={["Angular"]}
+                  link="tenastreats.com"
                 />
 
                 <Project
                   title="JV P&C Solutions Website"
                   description="A website for an electrical engineering company focused in relay protection, maintenance, and control."
                   skills={["ReactJS"]}
-                />
-
-                <Project
-                  title="M&N Windows and Doors Website"
-                  description="A website for a local Windows and Doors company that has been well-known for over 40 years."
-                  skills={["HTML", "CSS"]}
+                  link="jvpcs.com"
                 />
               </div>
             </div>
