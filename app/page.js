@@ -24,7 +24,7 @@ export default function Home() {
                 Software Engineering Professional
               </h3>
               <h4 id="short-description" className="text-md">
-                One-sentence description
+                I am a skilled software engineer, seeking valuable experience, that is poised to tackle diverse challenges and create innovative solutions..
               </h4>
             </div>
 
@@ -53,6 +53,18 @@ export default function Home() {
                 tight schedules while producing impeccable code. Driven student leveraging
                 studies in Computer Science seeking real-world experience as a Software Developer.
               </p>
+            </div>
+
+            <div id="about-container" className="py-2 px-10">
+              <h1 className="text-2xl pb-1">
+                EDUCATION
+              </h1>
+              <h3 className="text-lg">
+                University of Waterloo
+              </h3>
+              <h4 className="text-md pb-3">
+                Honours Bachelor of Computer Science
+              </h4>
             </div>
 
             <div id="experience-container" className="p-10">
