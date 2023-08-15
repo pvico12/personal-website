@@ -97,7 +97,7 @@ export default function Home() {
                 />
 
                 <Experience
-                  date="JUNE 2023 - NOW"
+                  date="MAY 2023 - JUNE 2023"
                   position="Software Engineer in Test"
                   company="Siemens"
                   description="

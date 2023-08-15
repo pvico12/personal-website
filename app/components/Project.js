@@ -15,15 +15,15 @@ function project(props) {
         </div>
 
         <div id="project-desc-skills" className="text-sm">
-          <div id="project-description" className="pb-3">
+          <div id="project-description" className="pb-2">
             {props.description}
           </div>
 
           {props.link && 
-            <a href={link} target="_blank" rel="noopener noreferrer" className="flex">
+            <a href={link} target="_blank" rel="noopener noreferrer" className="flex pb-2">
               See more at 
               <div className="text-underline text-blue-600 hover:text-blue-800 visited:text-purple-600 pl-1">
-              {props.link}
+                {props.link}
               </div>
             </a>
           }
