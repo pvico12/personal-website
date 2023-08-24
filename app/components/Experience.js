@@ -12,8 +12,12 @@ function experience(props) {
         {props.date}
       </div>
       <div id="experience-info" className="w-4/5">
-        <div id="experience-position-company" className="text-lg pb-2">
+        <div id="experience-position-company" className="text-lg">
           {props.position} - {props.company}
+        </div>
+
+        <div id="experience-position-company" className="text-sm pb-2">
+          {props.employmentType}
         </div>
 
         <div id="experience-desc-skills" className="text-sm">

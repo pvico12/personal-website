@@ -7,10 +7,10 @@ import Experience from "./components/Experience.js"
 import Project from "./components/Project.js"
 
 export default function Home() {
-  const [darkmode, setDarkmode] = useState(false);
+  const [darkmode, setDarkmode] = useState(true);
   return (
     <div className={darkmode ? "dark" : ""}>
-      <main className="dark:bg-slate-500 dark:text-white">
+      <main className="dark:bg-slate-300">
         <div id="two-sided-pane" className="flex justify-center flex-pane">
           <div id="main-info-container" className="max-w-lg lg:w-1/3 lg:sticky lg:top-0 lg:h-fit p-10">
             <div id="basic-info" className="pb-6">
@@ -24,7 +24,7 @@ export default function Home() {
                 Software Engineering Professional
               </h3>
               <h4 id="short-description" className="text-md">
-                I am a skilled software engineer, seeking valuable experience, that is poised to tackle diverse challenges and create innovative solutions..
+                I am a skilled software engineer, seeking valuable experience, that is poised to tackle diverse challenges and create innovative solutions.
               </h4>
             </div>
 
@@ -74,40 +74,57 @@ export default function Home() {
 
               <div id="experience-list" className="flex flex-col space-between gap-4">
                 <Experience
-                  date="JUNE 2023 - NOW"
-                  position="Full-Stack Engineer"
+                  date="JUNE 2023 to PRESENT"
+                  position="Full-Stack Software Engineer"
                   company="SerbLink"
-                  description="Creating and maintaining website built with MongoDB, ExpressJS, NodeJS, and Angular."
-                  skills={["MongoDB", "Angular", "NodeJS", "ExpressJS", "Docker", "GitLab"]}
+                  employmentType="Part-Time"
+                  description="
+                  Created and consistently adding features to backend in NodeJs, ExpressJS, and MongoDB for database use.
+                  Maintaining frontend of website built with Angular.
+                  Focused on containerizing with Docker for deployment with Github Actions and pipelines.
+                  "
+                  skills={["MongoDB", "Angular", "NodeJS", "ExpressJS", "Docker", "Git DevOps"]}
                 />
 
                 <Experience
-                  date="SEPT 2022 - NOW"
+                  date="SEPT 2022 to PRESENT"
                   position="Software Engineer in Test"
                   company="IMAX"
+                  employmentType="Coop Full-Time, Part-Time from JAN 2023"
                   description="
-                  Created Slack bot to report daily integration test runs with lots of responsiveness.
+                  Created Slack bot to report daily integration test runs.
                   Created script to automate the TestRail reporting process when running test cases.
                   Created several other automation scripts to ease software testing and development throughout the team.
                   Maintained several areas of testing including regression, integration, and validation.
-                  Obtained experience working with RestAPIs, MySQL databases, and product deployment.
-                  Reworked entire areas of testing for better automativity, documentation, and thoroughness.
-                  Fast-pased work environent applying agile methodologies using technologies like GitHub and JIRA."
+                  Reworked entire areas of testing for better automativity, documentation, and thoroughness."
                   skills={["Python", "TestRail API", "Slack API"]}
                 />
 
                 <Experience
-                  date="MAY 2023 - JUNE 2023"
+                  date="AUG 2019 to PRESENT"
+                  position="Head of Technology"
+                  company="JV P&C Solutions"
+                  employmentType="Part-Time"
+                  description="
+                  Created and currently maintaining company website.
+                  Configuration of several different machines for office use.
+                  Domain, licensing, and accounts maintenance with Azure DevOps.
+                  "
+                  skills={["PHP", "Windows", "Azure DevOps"]}
+                />
+
+                <Experience
+                  date="MAY 2023 to JUNE 2023"
                   position="Software Engineer in Test"
                   company="Siemens"
+                  employmentType="Coop Full-Time"
                   description="
                   Created android emulator in Java to speed up acceptance testing by up to 2500%.
-                  Company-wide emulator impact as it was packaged and distributed to other teams.
-                  Created tools for cloud deployment of emulators.
+                  Emulator had company-impact as it was distributed to other teams internationally.
                   Automated test cases from the ground for an entire new product yet to be released.
                   Used a BDD (Behaviour Driven Development) apporoach with the help of Gherkin to maximize test coverage and accuracy.
                   Maintained several areas of automated testing in Python including acceptance, validation, sanity, and performance."
-                  skills={["Python", "Java", "Gherkin"]}
+                  skills={["Python", "Java", "Gherkin", "BDD"]}
                 />
               </div>
             </div>
@@ -126,7 +143,7 @@ export default function Home() {
 
                 <Project
                   title="Personal Website"
-                  description="My personal website outlining my different software development experience through different work experiences and projects."
+                  description="My personal website outlining my different software development experiences through different work experiences and projects."
                   skills={["NextJS", "ReactJS", "Tailwind CSS"]}
                   link="petarvico.com"
                 />
@@ -134,14 +151,14 @@ export default function Home() {
                 <Project
                   title="Tena's Treats Wesbite"
                   description="A website for a customized sweet treats local business."
-                  skills={["Angular"]}
+                  skills={["Angular", "Tailwind CSS"]}
                   link="tenastreats.com"
                 />
 
                 <Project
                   title="JV P&C Solutions Website"
                   description="A website for an electrical engineering company focused in relay protection, maintenance, and control."
-                  skills={["ReactJS"]}
+                  skills={["PHP"]}
                   link="jvpcs.com"
                 />
               </div>
