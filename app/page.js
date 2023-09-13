@@ -24,7 +24,7 @@ export default function Home() {
                 Software Engineering Professional
               </h3>
               <h4 id="short-description" className="text-md">
-                I am a skilled software engineer, seeking valuable experience, that is poised to tackle diverse challenges and create innovative solutions.
+                Highly skilled software engineer, with a "Get It Done" attitude, seeking valuable experience, that is poised to tackle diverse challenges and create innovative solutions.
               </h4>
             </div>
 
