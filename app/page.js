@@ -79,11 +79,12 @@ export default function Home() {
                   company="SerbLink"
                   employmentType="Part-Time"
                   description="
-                  Created and consistently adding features to backend in NodeJs, ExpressJS, and MongoDB for database use.
-                  Maintaining frontend of website built with Angular.
-                  Focused on containerizing with Docker for deployment with Github Actions and pipelines.
+                  Created full MongoDB, ExpressJS, and NodeJS backend from scratch with features such as authentication, subscriptions, and item purchases.
+                  Maintained a full functional frontend made with Angular.
+                  Created dockerized MongoDB instance for unit tests that are run in CI/CD.
+                  In charge of full deployment and maintenance of both frontend and backend.
                   "
-                  skills={["MongoDB", "Angular", "NodeJS", "ExpressJS", "Docker", "Git DevOps"]}
+                  skills={["MongoDB", "Angular", "NodeJS", "ExpressJS", "EJS", "TailwindCSS", "Docker", "CI/CD"]}
                 />
 
                 <Experience
