@@ -43,7 +43,7 @@ export default function Home() {
             </div>
 
             <div id="resume-cv-download" className="flex flex-col gap-2">
-              <a class="button" href="public/petar-resume.pdf" attribute-list download target="_blank" rel="noopener noreferrer">
+              <a class="button" href="petar-resume.pdf" attribute-list download target="_blank" rel="noopener noreferrer">
                 <div className="flex items-center gap-3">
                   <AiOutlineProfile className="text-3xl"/>
                   <div className="text-lg">
@@ -51,7 +51,7 @@ export default function Home() {
                   </div>
                 </div>
               </a>
-              <a class="button" href="public/petar-cover-letter.pdf" attribute-list download target="_blank" rel="noopener noreferrer">
+              <a class="button" href="petar-cover-letter.pdf" attribute-list download target="_blank" rel="noopener noreferrer">
                 <div className="flex items-center gap-3">
                   <SlEnvolopeLetter className="text-3xl"/>
                   <div className="text-lg">
