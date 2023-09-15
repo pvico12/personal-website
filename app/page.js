@@ -1,5 +1,7 @@
 "use client";
 
+import { AiOutlineProfile } from "react-icons/ai";
+import { SlEnvolopeLetter } from "react-icons/sl";
 import { FaLinkedin, FaGithub, FaEnvelope, FaLightbulb } from "react-icons/fa";
 import { useState } from "react";
 import Head from "next/head";
@@ -28,7 +30,7 @@ export default function Home() {
               </h4>
             </div>
 
-            <div id="social-links" className="flex flex-row">
+            <div id="social-links" className="flex flex-row mb-5">
               <a href="https://ca.linkedin.com/in/petar-vico-6ba2b6217" target="_blank" rel="noopener noreferrer" className="text-3xl pr-2">
                 <FaLinkedin />
               </a>
@@ -37,6 +39,25 @@ export default function Home() {
               </a>
               <a href="mailto:petarvico3@outlook.com" target="_blank" rel="noopener noreferrer" className="text-3xl px-2">
                 <FaEnvelope />
+              </a>
+            </div>
+
+            <div id="resume-cv-download" className="flex flex-col gap-2">
+              <a class="button" href="public/petar-resume.pdf" attribute-list download target="_blank" rel="noopener noreferrer">
+                <div className="flex items-center gap-3">
+                  <AiOutlineProfile className="text-3xl"/>
+                  <div className="text-lg">
+                    Download my <strong>Resume</strong>
+                  </div>
+                </div>
+              </a>
+              <a class="button" href="public/petar-cover-letter.pdf" attribute-list download target="_blank" rel="noopener noreferrer">
+                <div className="flex items-center gap-3">
+                  <SlEnvolopeLetter className="text-3xl"/>
+                  <div className="text-lg">
+                    Download my <strong>Cover Letter</strong>
+                  </div>
+                </div>
               </a>
             </div>
           </div>
